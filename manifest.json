@@ -5,7 +5,6 @@
   "description": "Copy text without selecting. Easy and fast copy tool.",
   
   "permissions" : [
-    "tabs", 
     "http://*/*", 
     "https://*/*", 
     "contextMenus"
@@ -17,5 +16,16 @@
   
   "background" : {
     "scripts" : ["background.js"]
-  }
+  },
+  "content_scripts": [
+        {
+            "matches": [
+                "http://*/*", 
+                "https://*/*"
+            ],
+            "js": [
+                "menu.js"
+            ]
+        }
+    ]
 }
