@@ -16,7 +16,7 @@ function onClick(info, tab) {
         "currentWindow": true
     }, function (tabs) {
         chrome.tabs.sendMessage(tabs[0].id, {
-            "functiontoInvoke": "showInfo"
+            "functiontoInvoke": "copy"
         });
     });
 }
