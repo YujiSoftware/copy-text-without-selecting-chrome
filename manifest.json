@@ -25,7 +25,9 @@
                 "https://*/*"
             ],
             "js": [
-                "menu.js"
+                "jquery-2.2.0.min.js",
+                "menu.js",
+                "content.js"
             ]
         }
     ]
