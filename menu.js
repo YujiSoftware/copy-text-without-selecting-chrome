@@ -9,7 +9,7 @@ document.addEventListener("mousedown", function(event){
 
 chrome.extension.onMessage.addListener(function (message, sender, callback) {
     if (message.functiontoInvoke == "copy") {
-        var text = getText(clickedElement, "\r\n");
+        var text = getText(clickedElement.firstChild, "\r\n");
         copy(text.trim());
         
         var rect = clickedElement.getBoundingClientRect();
