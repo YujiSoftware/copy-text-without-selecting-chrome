@@ -30,7 +30,7 @@ chrome.extension.onMessage.addListener(function (message, sender, callback) {
             })
         });
         
-        console.log(text.trim());
+        // console.log(text.trim());
     }
 });
 
