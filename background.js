@@ -1,5 +1,5 @@
 chrome.contextMenus.create({
-    "title" : "Copy(&C)",
+    "title" : chrome.i18n.getMessage("copy"),
     "type" : "normal",
     "contexts" : ["page", "link"],
     "onclick" : onClick
