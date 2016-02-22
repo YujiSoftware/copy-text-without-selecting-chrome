@@ -24,11 +24,7 @@ chrome.extension.onMessage.addListener(function (message, sender, callback) {
         frame.style.zIndex = "99999";
         document.body.appendChild(frame);
         
-        $(frame).fadeIn(200, "swing", function(){
-            $(this).fadeOut(600, "swing", function(){
-                this.remove(); 
-            })
-        });
+        $(frame).fadeIn(300, "swing").delay(500).fadeOut(500, "swing");
         
         // console.log(text.trim());
     }

@@ -1,6 +1,6 @@
 {
   "name": "Copy Text without Selecting",
-  "version": "1.0",
+  "version": "1.0.1",
   "manifest_version": 2,
   "description": "Copy text without selecting. Easy and fast copy tool.",
   "default_locale": "en",
