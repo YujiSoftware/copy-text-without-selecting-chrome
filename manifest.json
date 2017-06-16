@@ -9,7 +9,7 @@
     "http://*/*", 
     "https://*/*", 
     "contextMenus",
-    "clipboardRead"
+    "clipboardWrite"
   ],
   
   "icons" : {
