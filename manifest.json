@@ -1,14 +1,13 @@
 {
-  "name": "Copy Text without Selecting",
-  "version": "1.0.1",
+  "name": "Copy text with Alt-Click",
+  "version": "2.0.0",
   "manifest_version": 2,
-  "description": "Copy text without selecting. Easy and fast copy tool.",
+  "description": "Copy text with Alt-Click. Easy and fast copy tool.",
   "default_locale": "en",
   
   "permissions" : [
     "http://*/*", 
     "https://*/*", 
-    "contextMenus",
     "clipboardWrite"
   ],
   
@@ -16,9 +15,6 @@
     "48" : "icon.png"
   },
   
-  "background" : {
-    "scripts" : ["background.js"]
-  },
   "content_scripts": [
         {
             "matches": [
